@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8858313868151224665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3374188045820040879}
+  - component: {fileID: 3956374856036990494}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3374188045820040879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858313868151224665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.3924165, y: 0.83582425, z: -0.15803647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3956374856036990494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858313868151224665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67e9f05abd352b4fb15fea9ccb7c01d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Slide
+    clip: {fileID: 8300000, guid: f081a7d25d9c90d42b672f3e1db8fdfc, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: WinterWind
+    clip: {fileID: 8300000, guid: b9d52708388959248be1a28fe9ea60fe, type: 3}
+    volume: 0.412
+    pitch: 1
+  - name: SunnyWind
+    clip: {fileID: 8300000, guid: f86427c1f6aad5c4ab314ffec74e2fcd, type: 3}
+    volume: 0.174
+    pitch: 1
+  - name: SunnyWalk
+    clip: {fileID: 8300000, guid: e11a973191d4b3141b76666c85fea607, type: 3}
+    volume: 0.96
+    pitch: 1
+  - name: MazeTick
+    clip: {fileID: 8300000, guid: c8d4085172b1f4a4eb9a22a83678081c, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: Ding
+    clip: {fileID: 8300000, guid: 70623c125e7eb8f4f935f462d8ffba42, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: Sploosh
+    clip: {fileID: 8300000, guid: 45f1e9a79b188374ab2816d59d6af8fd, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: AutumnWalk
+    clip: {fileID: 8300000, guid: 777f3a70c98076c4e983932cfa4bf21c, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: Hit
+    clip: {fileID: 8300000, guid: c7f58aab6e413314eab92c3ed1395450, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: FlipLever
+    clip: {fileID: 8300000, guid: eed902e2b00e98a438039728d1bb6ad6, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: PickupKey
+    clip: {fileID: 8300000, guid: 13405078c1d3b7846b8e0f27786ff6e0, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: HubWalk
+    clip: {fileID: 8300000, guid: 8c4558edc01578d45adfd28262708809, type: 3}
+    volume: 0.633
+    pitch: 1
+  - name: EndMusic
+    clip: {fileID: 8300000, guid: ceff4e09f0b541f40af699dcc42c2351, type: 3}
+    volume: 0.633
+    pitch: 1
